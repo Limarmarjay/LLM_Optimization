@@ -1,0 +1,26 @@
+export PATH=$HOME/ollama-local/bin:$PATH
+ollama serve > ~/ollama.log 2>&1 &     # start the server in the background
+curl http://localhost:11434            # should print "Ollama is running"
+pgrep -f ollama                        # is it running? (prints process IDs)
+pkill -f "ollama serve"                # stop the server
+
+
+ollama list                            # models downloaded
+ollama ps                              # models loaded in memory right now
+ollama run qwen2.5-coder:7b            # start a chat with Qwen
+ollama run gpt-oss:20b --think=medium  # start a chat with gpt-oss, medium reasoning
+ollama stop qwen2.5-coder:7b           # unload qwen model rom memory
+ollama stop gpt-oss:20b                # unload oss model rom memory
+ollama rm <model>                      # delete a downloaded model
+
+ollama show qwen2.5-coder:7b --parameters   # default parameters stored with the model
+ollama show gpt-oss:20b --parameters
+ollama show qwen2.5-coder:7b                # summary: architecture, parameters, context length
+ollama show gpt-oss:20b              
+
+
+/set parameter temperature 0           # set temperature
+/set parameter num_ctx 16384           # context window (16K tokens)
+/clear                                 # clear the conversation history
+/bye                                   # leave the chat
+/?                                     # list all slash commands

@@ -1,0 +1,55 @@
+Python
+```python
+n = int(input())
+x = list(map(int, input().split()))
+a, b = list(map(int, input().split()))
+c = 0
+while a != b:
+    c += x[a-1]
+    a += 1
+print(c)
+```
+
+C#
+To optimize the given unoptimized code for the task, we can follow a similar approach to the binary search technique used in the previous examples. The goal is to find the minimum number of years Vasya needs to serve to reach rank
+b from rank a, given the number of years required to rise from each rank.
+
+Here's the optimized code:
+
+```csharp
+using System;
+using System.Linq;
+
+namespace _38A
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int N = int.Parse(Console.ReadLine());
+            int[] cont = Console.ReadLine().Split().Select(int.Parse).ToArray();
+            int[] temp = Console.ReadLine().Split().Select(int.Parse).ToArray();
+            int pos = temp[0], dest = temp[1], ans = 0;
+
+            // Calculate the number of years needed to reach rank b from rank a
+            for (int i = pos - 1; i < dest - 1; i++)
+            {
+                ans += cont[i];
+            }
+
+            Console.WriteLine(ans);
+        }
+    }
+}
+```
+
+### Explanation:
+1. **Input Reading**: The code reads the number of ranks `N`, the array of years required to rise from each rank, and the starting and destination ranks.
+2. **Calculation**: The code calculates the number of years needed to reach the destination rank `dest` from the current rank `pos`. This is done by summing up the years required for each rank in between.
+3. **Output**: The result is printed, which is the total number of years Vasya needs to serve to reach his dream rank.
+
+### Complexity:
+- **Time Complexity**: O(N), where N is the number of ranks.
+- **Space Complexity**: O(1), as we are using a constant amount of extra space.
+
+This optimized code efficiently calculates the required number of years without using any unnecessary loops or complex algorithms, making it faster and more efficient than the unoptimized version.

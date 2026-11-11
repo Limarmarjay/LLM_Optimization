@@ -1,0 +1,33 @@
+program,task,lang,model,condition,passed,total,pass1,cases_timed,avg_ms,baseline_avg_ms,change_pct,cases_faster,faster,unchanged,opt1,note
+ball_gptoss_multishot.cs,ball,cs,gptoss,multishot,15,15,yes,15,17.81,17.03,-4.5,8/15,no,no,no,
+ball_gptoss_zeroshot.cs,ball,cs,gptoss,zeroshot,15,15,yes,15,18.75,17.03,-10.1,4/15,no,no,no,
+ball_qwen_multishot.cs,ball,cs,qwen,multishot,2,15,no,,,17.03,,,,no,no,not timed: did not pass every test case
+ball_qwen_zeroshot.cs,ball,cs,qwen,zeroshot,0,15,no,,,17.03,,,,no,no,not timed: did not pass every test case
+berland_gptoss_multishot.cs,berland,cs,gptoss,multishot,15,15,yes,15,18.67,19.0,1.7,12/15,yes,no,yes,
+berland_gptoss_multishot.py,berland,py,gptoss,multishot,15,15,yes,15,12.99,12.78,-1.7,6/15,no,no,no,
+berland_gptoss_zeroshot.cs,berland,cs,gptoss,zeroshot,15,15,yes,15,16.69,19.0,12.1,15/15,yes,no,yes,
+berland_gptoss_zeroshot.py,berland,py,gptoss,zeroshot,15,15,yes,15,12.82,12.78,-0.3,5/15,no,no,no,
+berland_qwen_multishot.cs,berland,cs,qwen,multishot,15,15,yes,15,18.79,19.0,1.1,9/15,yes,no,yes,
+berland_qwen_multishot.py,berland,py,qwen,multishot,15,15,yes,15,12.78,12.78,0.0,9/15,no,no,no,
+berland_qwen_zeroshot.cs,berland,cs,qwen,zeroshot,15,15,yes,15,18.58,19.0,2.2,9/15,yes,yes,no,
+berland_qwen_zeroshot.py,berland,py,qwen,zeroshot,5,15,no,,,12.78,,,,no,no,not timed: did not pass every test case
+laces_gptoss_multishot.py,laces,py,gptoss,multishot,17,18,no,,,12.89,,,,no,no,not timed: did not pass every test case
+laces_gptoss_zeroshot.py,laces,py,gptoss,zeroshot,18,18,yes,18,13.43,12.89,-4.2,6/18,no,no,no,
+laces_qwen_multishot.py,laces,py,qwen,multishot,2,18,no,,,12.89,,,,no,no,not timed: did not pass every test case
+laces_qwen_zeroshot.py,laces,py,qwen,zeroshot,0,18,no,,,12.89,,,,no,no,not timed: did not pass every test case
+names_gptoss_multishot.cs,names,cs,gptoss,multishot,15,15,yes,15,17.14,19.3,11.2,15/15,yes,no,yes,
+names_gptoss_multishot.py,names,py,gptoss,multishot,15,15,yes,15,12.83,22.57,43.1,15/15,yes,no,yes,
+names_gptoss_zeroshot.cs,names,cs,gptoss,zeroshot,15,15,yes,15,16.93,19.3,12.3,15/15,yes,no,yes,
+names_gptoss_zeroshot.py,names,py,gptoss,zeroshot,15,15,yes,15,13.15,22.57,41.8,15/15,yes,no,yes,
+names_qwen_multishot.cs,names,cs,qwen,multishot,15,15,yes,15,18.4,19.3,4.7,14/15,yes,no,yes,
+names_qwen_multishot.py,names,py,qwen,multishot,2,15,no,,,22.57,,,,no,no,not timed: did not pass every test case
+names_qwen_zeroshot.cs,names,cs,qwen,zeroshot,15,15,yes,15,18.72,19.3,3.0,12/15,yes,no,yes,
+names_qwen_zeroshot.py,names,py,qwen,zeroshot,3,15,no,,,22.57,,,,no,no,not timed: did not pass every test case
+perm_gptoss_multishot.cs,perm,cs,gptoss,multishot,16,16,yes,16,17.96,19.5,7.9,13/16,yes,no,yes,
+perm_gptoss_zeroshot.cs,perm,cs,gptoss,zeroshot,16,16,yes,16,19.82,19.5,-1.6,4/16,no,no,no,
+perm_qwen_multishot.cs,perm,cs,qwen,multishot,16,16,yes,16,19.36,19.5,0.7,5/16,yes,no,yes,
+perm_qwen_zeroshot.cs,perm,cs,qwen,zeroshot,16,16,yes,16,18.94,19.5,2.9,12/16,yes,no,yes,
+settlers_gptoss_multishot.py,settlers,py,gptoss,multishot,11,17,no,,,13.06,,,,no,no,not timed: did not pass every test case
+settlers_gptoss_zeroshot.py,settlers,py,gptoss,zeroshot,17,17,yes,17,13.55,13.06,-3.7,8/17,no,no,no,
+settlers_qwen_multishot.py,settlers,py,qwen,multishot,17,17,yes,17,13.65,13.06,-4.5,2/17,no,yes,no,
+settlers_qwen_zeroshot.py,settlers,py,qwen,zeroshot,6,17,no,,,13.06,,,,no,no,not timed: did not pass every test case
