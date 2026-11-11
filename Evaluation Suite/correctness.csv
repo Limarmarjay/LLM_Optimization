@@ -1,0 +1,33 @@
+program,task,lang,model,condition,passed,total,pass1,runs_on_case01,notes,run_cmd
+ball_gptoss_multishot.cs,ball,cs,gptoss,multishot,15,15,yes,yes,,mono|/Users/aaliyahumoru/Downloads/Senior Thesis Documents/Evaluation Suite/build/ball_gptoss_multishot.exe
+ball_gptoss_zeroshot.cs,ball,cs,gptoss,zeroshot,15,15,yes,yes,,mono|/Users/aaliyahumoru/Downloads/Senior Thesis Documents/Evaluation Suite/build/ball_gptoss_zeroshot.exe
+ball_qwen_multishot.cs,ball,cs,qwen,multishot,2,15,no,yes,01:wrong 02:wrong 05:wrong 06:wrong 07:wrong 08:wrong 09:wrong 10:wrong,mono|/Users/aaliyahumoru/Downloads/Senior Thesis Documents/Evaluation Suite/build/ball_qwen_multishot.exe
+ball_qwen_zeroshot.cs,ball,cs,qwen,zeroshot,0,15,no,yes,01:wrong 02:wrong 03:wrong 04:wrong 05:wrong 06:wrong 07:wrong 08:wrong,mono|/Users/aaliyahumoru/Downloads/Senior Thesis Documents/Evaluation Suite/build/ball_qwen_zeroshot.exe
+berland_gptoss_multishot.cs,berland,cs,gptoss,multishot,15,15,yes,yes,,mono|/Users/aaliyahumoru/Downloads/Senior Thesis Documents/Evaluation Suite/build/berland_gptoss_multishot.exe
+berland_gptoss_multishot.py,berland,py,gptoss,multishot,15,15,yes,yes,,/opt/anaconda3/bin/python3|/Users/aaliyahumoru/Downloads/Senior Thesis Documents/Evaluation Suite/programs/berland_gptoss_multishot.py
+berland_gptoss_zeroshot.cs,berland,cs,gptoss,zeroshot,15,15,yes,yes,,mono|/Users/aaliyahumoru/Downloads/Senior Thesis Documents/Evaluation Suite/build/berland_gptoss_zeroshot.exe
+berland_gptoss_zeroshot.py,berland,py,gptoss,zeroshot,15,15,yes,yes,,/opt/anaconda3/bin/python3|/Users/aaliyahumoru/Downloads/Senior Thesis Documents/Evaluation Suite/programs/berland_gptoss_zeroshot.py
+berland_qwen_multishot.cs,berland,cs,qwen,multishot,15,15,yes,yes,,mono|/Users/aaliyahumoru/Downloads/Senior Thesis Documents/Evaluation Suite/build/berland_qwen_multishot.exe
+berland_qwen_multishot.py,berland,py,qwen,multishot,15,15,yes,yes,,/opt/anaconda3/bin/python3|/Users/aaliyahumoru/Downloads/Senior Thesis Documents/Evaluation Suite/programs/berland_qwen_multishot.py
+berland_qwen_zeroshot.cs,berland,cs,qwen,zeroshot,15,15,yes,yes,,mono|/Users/aaliyahumoru/Downloads/Senior Thesis Documents/Evaluation Suite/build/berland_qwen_zeroshot.exe
+berland_qwen_zeroshot.py,berland,py,qwen,zeroshot,5,15,no,yes,01:wrong 03:wrong 08:wrong 09:wrong 10:wrong 11:wrong 12:wrong 13:wrong,/opt/anaconda3/bin/python3|/Users/aaliyahumoru/Downloads/Senior Thesis Documents/Evaluation Suite/programs/berland_qwen_zeroshot.py
+laces_gptoss_multishot.py,laces,py,gptoss,multishot,17,18,no,yes,10:wrong,/opt/anaconda3/bin/python3|/Users/aaliyahumoru/Downloads/Senior Thesis Documents/Evaluation Suite/programs/laces_gptoss_multishot.py
+laces_gptoss_zeroshot.py,laces,py,gptoss,zeroshot,18,18,yes,yes,,/opt/anaconda3/bin/python3|/Users/aaliyahumoru/Downloads/Senior Thesis Documents/Evaluation Suite/programs/laces_gptoss_zeroshot.py
+laces_qwen_multishot.py,laces,py,qwen,multishot,2,18,no,no,01:timeout 02:wrong 03:wrong 04:timeout 05:timeout 06:wrong 08:timeout 09:timeout,/opt/anaconda3/bin/python3|/Users/aaliyahumoru/Downloads/Senior Thesis Documents/Evaluation Suite/programs/laces_qwen_multishot.py
+laces_qwen_zeroshot.py,laces,py,qwen,zeroshot,0,18,no,no,01:timeout 02:wrong 03:wrong 04:timeout 05:wrong 06:wrong 07:wrong 08:timeout,/opt/anaconda3/bin/python3|/Users/aaliyahumoru/Downloads/Senior Thesis Documents/Evaluation Suite/programs/laces_qwen_zeroshot.py
+names_gptoss_multishot.cs,names,cs,gptoss,multishot,15,15,yes,yes,,mono|/Users/aaliyahumoru/Downloads/Senior Thesis Documents/Evaluation Suite/build/names_gptoss_multishot.exe
+names_gptoss_multishot.py,names,py,gptoss,multishot,15,15,yes,yes,,/opt/anaconda3/bin/python3|/Users/aaliyahumoru/Downloads/Senior Thesis Documents/Evaluation Suite/programs/names_gptoss_multishot.py
+names_gptoss_zeroshot.cs,names,cs,gptoss,zeroshot,15,15,yes,yes,,mono|/Users/aaliyahumoru/Downloads/Senior Thesis Documents/Evaluation Suite/build/names_gptoss_zeroshot.exe
+names_gptoss_zeroshot.py,names,py,gptoss,zeroshot,15,15,yes,yes,,/opt/anaconda3/bin/python3|/Users/aaliyahumoru/Downloads/Senior Thesis Documents/Evaluation Suite/programs/names_gptoss_zeroshot.py
+names_qwen_multishot.cs,names,cs,qwen,multishot,15,15,yes,yes,,mono|/Users/aaliyahumoru/Downloads/Senior Thesis Documents/Evaluation Suite/build/names_qwen_multishot.exe
+names_qwen_multishot.py,names,py,qwen,multishot,2,15,no,yes,01:wrong 02:wrong 04:wrong 05:wrong 07:wrong 08:wrong 09:wrong 10:wrong,/opt/anaconda3/bin/python3|/Users/aaliyahumoru/Downloads/Senior Thesis Documents/Evaluation Suite/programs/names_qwen_multishot.py
+names_qwen_zeroshot.cs,names,cs,qwen,zeroshot,15,15,yes,yes,,mono|/Users/aaliyahumoru/Downloads/Senior Thesis Documents/Evaluation Suite/build/names_qwen_zeroshot.exe
+names_qwen_zeroshot.py,names,py,qwen,zeroshot,3,15,no,yes,01:wrong 02:wrong 06:wrong 07:wrong 08:wrong 09:wrong 10:wrong 11:wrong,/opt/anaconda3/bin/python3|/Users/aaliyahumoru/Downloads/Senior Thesis Documents/Evaluation Suite/programs/names_qwen_zeroshot.py
+perm_gptoss_multishot.cs,perm,cs,gptoss,multishot,16,16,yes,yes,,mono|/Users/aaliyahumoru/Downloads/Senior Thesis Documents/Evaluation Suite/build/perm_gptoss_multishot.exe
+perm_gptoss_zeroshot.cs,perm,cs,gptoss,zeroshot,16,16,yes,yes,,mono|/Users/aaliyahumoru/Downloads/Senior Thesis Documents/Evaluation Suite/build/perm_gptoss_zeroshot.exe
+perm_qwen_multishot.cs,perm,cs,qwen,multishot,16,16,yes,yes,,mono|/Users/aaliyahumoru/Downloads/Senior Thesis Documents/Evaluation Suite/build/perm_qwen_multishot.exe
+perm_qwen_zeroshot.cs,perm,cs,qwen,zeroshot,16,16,yes,yes,,mono|/Users/aaliyahumoru/Downloads/Senior Thesis Documents/Evaluation Suite/build/perm_qwen_zeroshot.exe
+settlers_gptoss_multishot.py,settlers,py,gptoss,multishot,11,17,no,yes,05:wrong 06:wrong 10:wrong 12:wrong 13:wrong 16:wrong,/opt/anaconda3/bin/python3|/Users/aaliyahumoru/Downloads/Senior Thesis Documents/Evaluation Suite/programs/settlers_gptoss_multishot.py
+settlers_gptoss_zeroshot.py,settlers,py,gptoss,zeroshot,17,17,yes,yes,,/opt/anaconda3/bin/python3|/Users/aaliyahumoru/Downloads/Senior Thesis Documents/Evaluation Suite/programs/settlers_gptoss_zeroshot.py
+settlers_qwen_multishot.py,settlers,py,qwen,multishot,17,17,yes,yes,,/opt/anaconda3/bin/python3|/Users/aaliyahumoru/Downloads/Senior Thesis Documents/Evaluation Suite/programs/settlers_qwen_multishot.py
+settlers_qwen_zeroshot.py,settlers,py,qwen,zeroshot,6,17,no,yes,01:wrong 02:wrong 06:wrong 08:wrong 11:wrong 12:wrong 13:wrong 14:wrong,/opt/anaconda3/bin/python3|/Users/aaliyahumoru/Downloads/Senior Thesis Documents/Evaluation Suite/programs/settlers_qwen_zeroshot.py

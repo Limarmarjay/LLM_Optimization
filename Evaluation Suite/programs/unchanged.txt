@@ -1,0 +1,2 @@
+berland_qwen_zeroshot.cs
+settlers_qwen_multishot.py

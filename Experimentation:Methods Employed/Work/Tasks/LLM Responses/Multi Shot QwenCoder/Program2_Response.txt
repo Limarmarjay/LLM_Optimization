@@ -1,0 +1,104 @@
+Python
+```python
+import sys
+
+def reprimand(friends_list, n):
+    bad_list = []
+    for index in range(n):
+        if len(friends_list[index]) == 1:
+            bad_list.append(index)
+    for index in bad_list:
+        friends_list[index] = []
+        for neighbor in friends_list[index]:
+            friends_list[neighbor].remove(index)
+    return len(bad_list)
+
+def main():
+    input = sys.stdin.read
+    data = input().split()
+
+    n = int(data[0])
+    m = int(data[1])
+
+    friends_list = [[] for _ in range(n)]
+    index = 2
+    for i in range(m):
+        a = int(data[index]) - 1
+        b = int(data[index + 1]) - 1
+        friends_list[a].append(b)
+        friends_list[b].append(a)
+        index += 2
+
+    ans = 0
+    while any(friends_list):
+        ans += reprimand(friends_list, n)
+
+    print(ans - 1)
+
+if __name__ == "__main__":
+    main()
+```
+
+### Explanation:
+1. **Input Handling**: The input is read from standard input and split into a list of strings for easier parsing.
+2. **Graph Representation**: The adjacency list `friends_list` is constructed from the input data.
+3. **Reprimand Function**: The `reprimand` function identifies students with only one neighbor, reprimands them, and updates the graph. It returns the number of students reprimanded.
+4. **Main Loop**: The main loop continues to call `reprimand` until no more students can be reprimanded (i.e., the graph is empty).
+5. **Output**: The number of groups of students kicked out is printed.
+
+This optimized version avoids unnecessary checks and updates, making it more efficient.
+
+
+
+
+
+
+C#
+To optimize the unoptimized code provided, we can use a different approach that avoids counting elements multiple times. Instead of using an array to count occurrences of each number, we can use a HashSet to check if each number
+from 1 to n is present in the input sequence. This will make the code more efficient and easier to understand.
+
+Here's the optimized code:
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace ProblemB
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int n = int.Parse(Console.ReadLine());
+            string[] token = Console.ReadLine().Split();
+            HashSet<int> seen = new HashSet<int>();
+
+            foreach (string s in token)
+            {
+                int num = int.Parse(s);
+                seen.Add(num);
+            }
+
+            int result = 0;
+            for (int i = 1; i <= n; i++)
+            {
+                if (!seen.Contains(i))
+                {
+                    result++;
+                }
+            }
+
+            Console.WriteLine(result);
+        }
+    }
+}
+```
+
+### Explanation:
+1. **Reading Input**: We read the input values as before.
+2. **Using HashSet**: Instead of using an array to count occurrences, we use a HashSet to store the numbers we see in the input sequence.
+3. **Counting Missing Numbers**: We iterate from 1 to n and check if each number is in the HashSet. If a number is not found, it means it is missing from the input sequence, and we increment the result.
+4. **Output**: Finally, we print the result, which is the minimum number of elements Polycarpus needs to change to get a permutation.
+
+This optimized approach ensures that we efficiently check for the presence of each number and count the missing ones, resulting in a more performant solution.

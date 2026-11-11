@@ -1,0 +1,33 @@
+program,task,lang,model,condition,passed,total,pass1,notes,mean_ms,sd_ms,baseline_ms,faster,unchanged,opt1
+ball_gptoss_multishot.cs,ball,cs,gptoss,multishot,15,15,yes,,13.7,0.2,14.3,yes,no,yes
+ball_gptoss_zeroshot.cs,ball,cs,gptoss,zeroshot,15,15,yes,,13.7,0.2,14.3,yes,no,yes
+ball_qwen_multishot.cs,ball,cs,qwen,multishot,2,15,no,01:wrong 02:wrong 05:wrong 06:wrong 07:wrong 08:wrong 09:wrong 10:wrong,15.0,1.9,14.3,no,no,no
+ball_qwen_zeroshot.cs,ball,cs,qwen,zeroshot,0,15,no,01:wrong 02:wrong 03:wrong 04:wrong 05:wrong 06:wrong 07:wrong 08:wrong,14.2,1.4,14.3,yes,no,no
+berland_gptoss_multishot.cs,berland,cs,gptoss,multishot,15,15,yes,,14.9,0.4,15.6,yes,no,yes
+berland_gptoss_multishot.py,berland,py,gptoss,multishot,15,15,yes,,12.0,1.4,12.0,no,no,no
+berland_gptoss_zeroshot.cs,berland,cs,gptoss,zeroshot,15,15,yes,,13.8,0.2,15.6,yes,no,yes
+berland_gptoss_zeroshot.py,berland,py,gptoss,zeroshot,15,15,yes,,11.2,0.6,12.0,yes,no,yes
+berland_qwen_multishot.cs,berland,cs,qwen,multishot,15,15,yes,,15.4,0.1,15.6,yes,no,yes
+berland_qwen_multishot.py,berland,py,qwen,multishot,15,15,yes,,11.7,2.3,12.0,yes,no,yes
+berland_qwen_zeroshot.cs,berland,cs,qwen,zeroshot,15,15,yes,,15.4,0.4,15.6,yes,yes,no
+berland_qwen_zeroshot.py,berland,py,qwen,zeroshot,5,15,no,01:wrong 03:wrong 08:wrong 09:wrong 10:wrong 11:wrong 12:wrong 13:wrong,10.4,0.1,12.0,yes,no,no
+laces_gptoss_multishot.py,laces,py,gptoss,multishot,17,18,no,10:wrong,13.0,2.4,11.2,no,no,no
+laces_gptoss_zeroshot.py,laces,py,gptoss,zeroshot,18,18,yes,,12.1,1.6,11.2,no,no,no
+laces_qwen_multishot.py,laces,py,qwen,multishot,2,18,no,01:timeout 02:wrong 03:wrong 04:timeout 05:timeout 06:wrong 08:timeout 09:timeout,,,11.2,,no,no
+laces_qwen_zeroshot.py,laces,py,qwen,zeroshot,0,18,no,01:timeout 02:wrong 03:wrong 04:timeout 05:wrong 06:wrong 07:wrong 08:timeout,,,11.2,,no,no
+names_gptoss_multishot.cs,names,cs,gptoss,multishot,15,15,yes,,14.6,1.2,15.4,yes,no,yes
+names_gptoss_multishot.py,names,py,gptoss,multishot,15,15,yes,,48.6,32.6,18.1,no,no,no
+names_gptoss_zeroshot.cs,names,cs,gptoss,zeroshot,15,15,yes,,24.6,4.1,15.4,no,no,no
+names_gptoss_zeroshot.py,names,py,gptoss,zeroshot,15,15,yes,,34.1,12.9,18.1,no,no,no
+names_qwen_multishot.cs,names,cs,qwen,multishot,15,15,yes,,16.8,0.9,15.4,no,no,no
+names_qwen_multishot.py,names,py,qwen,multishot,2,15,no,01:wrong 02:wrong 04:wrong 05:wrong 07:wrong 08:wrong 09:wrong 10:wrong,13.4,2.1,18.1,yes,no,no
+names_qwen_zeroshot.cs,names,cs,qwen,zeroshot,15,15,yes,,18.9,2.1,15.4,no,no,no
+names_qwen_zeroshot.py,names,py,qwen,zeroshot,3,15,no,01:wrong 02:wrong 06:wrong 07:wrong 08:wrong 09:wrong 10:wrong 11:wrong,12.6,2.4,18.1,yes,no,no
+perm_gptoss_multishot.cs,perm,cs,gptoss,multishot,16,16,yes,,15.6,1.8,19.5,yes,no,yes
+perm_gptoss_zeroshot.cs,perm,cs,gptoss,zeroshot,16,16,yes,,19.1,6.6,19.5,yes,no,yes
+perm_qwen_multishot.cs,perm,cs,qwen,multishot,16,16,yes,,15.4,0.1,19.5,yes,no,yes
+perm_qwen_zeroshot.cs,perm,cs,qwen,zeroshot,16,16,yes,,14.1,0.3,19.5,yes,no,yes
+settlers_gptoss_multishot.py,settlers,py,gptoss,multishot,11,17,no,05:wrong 06:wrong 10:wrong 12:wrong 13:wrong 16:wrong,12.0,0.8,13.2,yes,no,no
+settlers_gptoss_zeroshot.py,settlers,py,gptoss,zeroshot,17,17,yes,,11.7,0.8,13.2,yes,no,yes
+settlers_qwen_multishot.py,settlers,py,qwen,multishot,17,17,yes,,11.5,0.4,13.2,yes,yes,no
+settlers_qwen_zeroshot.py,settlers,py,qwen,zeroshot,6,17,no,01:wrong 02:wrong 06:wrong 08:wrong 11:wrong 12:wrong 13:wrong 14:wrong,15.1,2.8,13.2,no,no,no

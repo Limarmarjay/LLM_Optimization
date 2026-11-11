@@ -1,0 +1,53 @@
+EASY (Based on Leetcode's Difficulty Rankings)
+Question 1
+Title of Problem - BINARY SEARCH
+Given an array of integers nums which is sorted in ascending order, and an integer target, 
+write a function to search target in nums. If target exists, then return its index. 
+Otherwise, return -1.
+
+UNOPTIMIZED = O(n^2)
+OPTIMIZED = O(log(n))
+
+Question 2
+Title of Problem - GUESS NUMBER HIGHER OR LOWER
+We are playing the Guess Game. The game is as follows:
+I pick a number from 1 to n. You have to guess which number I picked.
+Every time you guess wrong, I will tell you whether the number I picked is higher or lower than your guess.
+You call a pre-defined API int guess(int num), which returns three possible results:
+0: your guess is equal to the number I picked (i.e. num == pick).
+-1: Your guess is higher than the number I picked (i.e. num > pick).
+1: Your guess is lower than the number I picked (i.e. num < pick).
+
+UNOPTIMIZED = O(n)
+OPTIMIZED = O(log(n))
+
+Question 3
+Title of Problem - SQRT(X)
+You are given a non-negative integer x, return the square root of x rounded down to the nearest integer. 
+The returned integer should be non-negative as well.
+
+UNOPTIMIZED = O(sqrt(n))
+OPTIMIZED = O(log(n))
+
+MEDIUM
+Question 1
+Title of Problem - KOKO EATING BANANAS
+You are given an integer array piles where piles[i] is the number of bananas in the ith pile. 
+You are also given an integer h, which represents the number of hours you have to eat all the bananas.
+You may decide your bananas-per-hour eating rate of k. 
+Each hour, you may choose a pile of bananas and eats k bananas from that pile. 
+If the pile has less than k bananas, you may finish eating the pile but you can not eat from another pile in the same hour.
+Return the minimum integer k such that you can eat all the bananas within h hours.
+
+UNOPTIMIZED = O(m.n)
+OPTIMIZED = O(log(n))
+
+Question 2
+Title of Problem - SEARCH A 2D MATRIX
+You are given an m x n integer matrix matrix with the following two properties:
+Each row is sorted in non-decreasing order.
+The first integer of each row is greater than the last integer of the previous row.
+Given an integer target, return true if target is in matrix or false otherwise.
+
+UNOPTIMIZED = O(m.n)
+OPTIMIZED = O(log(n))

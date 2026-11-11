@@ -1,0 +1,174 @@
+**Task 1: result on each test case**
+
+| Test case | gpt-oss zero-shot | gpt-oss multi-shot | Qwen2.5-Coder zero-shot | Qwen2.5-Coder multi-shot |
+|---|---|---|---|---|
+| 01 | Pass | Pass | Wrong output | Pass |
+| 02 | Pass | Pass | Pass | Pass |
+| 03 | Pass | Pass | Wrong output | Pass |
+| 04 | Pass | Pass | Pass | Pass |
+| 05 | Pass | Pass | Pass | Pass |
+| 06 | Pass | Pass | Pass | Pass |
+| 07 | Pass | Pass | Pass | Pass |
+| 08 | Pass | Pass | Wrong output | Pass |
+| 09 | Pass | Pass | Wrong output | Pass |
+| 10 | Pass | Pass | Wrong output | Pass |
+| 11 | Pass | Pass | Wrong output | Pass |
+| 12 | Pass | Pass | Wrong output | Pass |
+| 13 | Pass | Pass | Wrong output | Pass |
+| 14 | Pass | Pass | Wrong output | Pass |
+| 15 | Pass | Pass | Wrong output | Pass |
+| Passed | 15/15 | 15/15 | 5/15 | 15/15 |
+
+*Task 2: result on each test case**
+
+| Test case | gpt-oss zero-shot | gpt-oss multi-shot | Qwen2.5-Coder zero-shot | Qwen2.5-Coder multi-shot |
+|---|---|---|---|---|
+| 01 | Pass | Pass | Timeout | Timeout |
+| 02 | Pass | Pass | Wrong output | Wrong output |
+| 03 | Pass | Pass | Wrong output | Wrong output |
+| 04 | Pass | Pass | Timeout | Timeout |
+| 05 | Pass | Pass | Wrong output | Timeout |
+| 06 | Pass | Pass | Wrong output | Wrong output |
+| 07 | Pass | Pass | Wrong output | Pass |
+| 08 | Pass | Pass | Timeout | Timeout |
+| 09 | Pass | Pass | Wrong output | Timeout |
+| 10 | Pass | Wrong output | Wrong output | Timeout |
+| 11 | Pass | Pass | Timeout | Timeout |
+| 12 | Pass | Pass | Timeout | Timeout |
+| 13 | Pass | Pass | Wrong output | Pass |
+| 14 | Pass | Pass | Wrong output | Wrong output |
+| 15 | Pass | Pass | Timeout | Timeout |
+| 16 | Pass | Pass | Timeout | Timeout |
+| 17 | Pass | Pass | Timeout | Timeout |
+| 18 | Pass | Pass | Timeout | Timeout |
+| Passed | 18/18 | 17/18 | 0/18 | 2/18 |
+
+**Task 3: result on each test case**
+
+| Test case | gpt-oss zero-shot | gpt-oss multi-shot | Qwen2.5-Coder zero-shot | Qwen2.5-Coder multi-shot |
+|---|---|---|---|---|
+| 01 | Pass | Pass | Wrong output | Pass |
+| 02 | Pass | Pass | Wrong output | Pass |
+| 03 | Pass | Pass | Pass | Pass |
+| 04 | Pass | Pass | Pass | Pass |
+| 05 | Pass | Wrong output | Pass | Pass |
+| 06 | Pass | Wrong output | Wrong output | Pass |
+| 07 | Pass | Pass | Pass | Pass |
+| 08 | Pass | Pass | Wrong output | Pass |
+| 09 | Pass | Pass | Pass | Pass |
+| 10 | Pass | Wrong output | Pass | Pass |
+| 11 | Pass | Pass | Wrong output | Pass |
+| 12 | Pass | Wrong output | Wrong output | Pass |
+| 13 | Pass | Wrong output | Wrong output | Pass |
+| 14 | Pass | Pass | Wrong output | Pass |
+| 15 | Pass | Pass | Wrong output | Pass |
+| 16 | Pass | Wrong output | Wrong output | Pass |
+| 17 | Pass | Pass | Wrong output | Pass |
+| Passed | 17/17 | 11/17 | 6/17 | 17/17 |
+
+**Task 4: result on each test case**
+
+| Test case | gpt-oss zero-shot | gpt-oss multi-shot | Qwen2.5-Coder zero-shot | Qwen2.5-Coder multi-shot |
+|---|---|---|---|---|
+| 01 | Pass | Pass | Wrong output | Wrong output |
+| 02 | Pass | Pass | Wrong output | Wrong output |
+| 03 | Pass | Pass | Pass | Pass |
+| 04 | Pass | Pass | Pass | Wrong output |
+| 05 | Pass | Pass | Pass | Wrong output |
+| 06 | Pass | Pass | Wrong output | Pass |
+| 07 | Pass | Pass | Wrong output | Wrong output |
+| 08 | Pass | Pass | Wrong output | Wrong output |
+| 09 | Pass | Pass | Wrong output | Wrong output |
+| 10 | Pass | Pass | Wrong output | Wrong output |
+| 11 | Pass | Pass | Wrong output | Wrong output |
+| 12 | Pass | Pass | Wrong output | Wrong output |
+| 13 | Pass | Pass | Wrong output | Wrong output |
+| 14 | Pass | Pass | Wrong output | Wrong output |
+| 15 | Pass | Pass | Wrong output | Wrong output |
+| Passed | 15/15 | 15/15 | 3/15 | 2/15 |
+
+**Task 5: result on each test case**
+
+| Test case | gpt-oss zero-shot | gpt-oss multi-shot | Qwen2.5-Coder zero-shot | Qwen2.5-Coder multi-shot |
+|---|---|---|---|---|
+| 01 | Pass | Pass | Pass | Pass |
+| 02 | Pass | Pass | Pass | Pass |
+| 03 | Pass | Pass | Pass | Pass |
+| 04 | Pass | Pass | Pass | Pass |
+| 05 | Pass | Pass | Pass | Pass |
+| 06 | Pass | Pass | Pass | Pass |
+| 07 | Pass | Pass | Pass | Pass |
+| 08 | Pass | Pass | Pass | Pass |
+| 09 | Pass | Pass | Pass | Pass |
+| 10 | Pass | Pass | Pass | Pass |
+| 11 | Pass | Pass | Pass | Pass |
+| 12 | Pass | Pass | Pass | Pass |
+| 13 | Pass | Pass | Pass | Pass |
+| 14 | Pass | Pass | Pass | Pass |
+| 15 | Pass | Pass | Pass | Pass |
+| Passed | 15/15 | 15/15 | 15/15 | 15/15 |
+
+**Task 6: result on each test case**
+
+| Test case | gpt-oss zero-shot | gpt-oss multi-shot | Qwen2.5-Coder zero-shot | Qwen2.5-Coder multi-shot |
+|---|---|---|---|---|
+| 01 | Pass | Pass | Pass | Pass |
+| 02 | Pass | Pass | Pass | Pass |
+| 03 | Pass | Pass | Pass | Pass |
+| 04 | Pass | Pass | Pass | Pass |
+| 05 | Pass | Pass | Pass | Pass |
+| 06 | Pass | Pass | Pass | Pass |
+| 07 | Pass | Pass | Pass | Pass |
+| 08 | Pass | Pass | Pass | Pass |
+| 09 | Pass | Pass | Pass | Pass |
+| 10 | Pass | Pass | Pass | Pass |
+| 11 | Pass | Pass | Pass | Pass |
+| 12 | Pass | Pass | Pass | Pass |
+| 13 | Pass | Pass | Pass | Pass |
+| 14 | Pass | Pass | Pass | Pass |
+| 15 | Pass | Pass | Pass | Pass |
+| 16 | Pass | Pass | Pass | Pass |
+| Passed | 16/16 | 16/16 | 16/16 | 16/16 |
+
+**Task 7: result on each test case**
+
+| Test case | gpt-oss zero-shot | gpt-oss multi-shot | Qwen2.5-Coder zero-shot | Qwen2.5-Coder multi-shot |
+|---|---|---|---|---|
+| 01 | Pass | Pass | Wrong output | Wrong output |
+| 02 | Pass | Pass | Wrong output | Wrong output |
+| 03 | Pass | Pass | Wrong output | Pass |
+| 04 | Pass | Pass | Wrong output | Pass |
+| 05 | Pass | Pass | Wrong output | Wrong output |
+| 06 | Pass | Pass | Wrong output | Wrong output |
+| 07 | Pass | Pass | Wrong output | Wrong output |
+| 08 | Pass | Pass | Wrong output | Wrong output |
+| 09 | Pass | Pass | Wrong output | Wrong output |
+| 10 | Pass | Pass | Wrong output | Wrong output |
+| 11 | Pass | Pass | Wrong output | Wrong output |
+| 12 | Pass | Pass | Wrong output | Wrong output |
+| 13 | Pass | Pass | Wrong output | Wrong output |
+| 14 | Pass | Pass | Wrong output | Wrong output |
+| 15 | Pass | Pass | Wrong output | Wrong output |
+| Passed | 15/15 | 15/15 | 0/15 | 2/15 |
+
+
+**Task 8: result on each test case**
+
+| Test case | gpt-oss zero-shot | gpt-oss multi-shot | Qwen2.5-Coder zero-shot | Qwen2.5-Coder multi-shot |
+|---|---|---|---|---|
+| 01 | Pass | Pass | Pass | Pass |
+| 02 | Pass | Pass | Pass | Pass |
+| 03 | Pass | Pass | Pass | Pass |
+| 04 | Pass | Pass | Pass | Pass |
+| 05 | Pass | Pass | Pass | Pass |
+| 06 | Pass | Pass | Pass | Pass |
+| 07 | Pass | Pass | Pass | Pass |
+| 08 | Pass | Pass | Pass | Pass |
+| 09 | Pass | Pass | Pass | Pass |
+| 10 | Pass | Pass | Pass | Pass |
+| 11 | Pass | Pass | Pass | Pass |
+| 12 | Pass | Pass | Pass | Pass |
+| 13 | Pass | Pass | Pass | Pass |
+| 14 | Pass | Pass | Pass | Pass |
+| 15 | Pass | Pass | Pass | Pass |
+| Passed | 15/15 | 15/15 | 15/15 | 15/15 |
