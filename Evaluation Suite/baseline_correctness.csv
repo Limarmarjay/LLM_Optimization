@@ -1,0 +1,9 @@
+program,task,lang,passed,total,notes
+ball.cs,ball,cs,15,15,
+berland.cs,berland,cs,15,15,
+berland.py,berland,py,15,15,
+laces.py,laces,py,18,18,
+names.cs,names,cs,15,15,
+names.py,names,py,15,15,
+perm.cs,perm,cs,16,16,
+settlers.py,settlers,py,17,17,

@@ -1,0 +1,17 @@
+As an expert software developer with years of experience, please meticulously inspect the following
+unoptimized inefficient code and give an optimized version of the code, making it solve the same exact
+problem while achieving faster execution time. To pass the testcases, the generated optimized code should
+strictly follow the same input/output format as the original unoptimized code. The detailed information
+are as follows:
+
+Description of the problem: {Insert Problem description}
+
+Programming language: C#
+
+Unoptimized code: {Insert Unoptimized Code from Codescope Dataset}
+
+Example testcase input: {Insert testcase input}
+
+Example testcase output: {Insert testcase output}
+
+Respond with the optimized code

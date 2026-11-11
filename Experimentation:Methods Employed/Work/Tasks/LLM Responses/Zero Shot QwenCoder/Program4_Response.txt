@@ -1,0 +1,86 @@
+Python
+The unoptimized code seems to be attempting to solve the problem by recursively removing the last character of each name and solving the problem on the reduced list of names. However, this approach is not correct for the problem as
+stated. The problem requires finding the number of distinct names that can be formed by swapping prefixes of two names.
+
+Here's a correct and optimized approach to solve the problem:
+
+1. Use a dictionary to count the frequency of each prefix of length `m-1` for all names.
+2. The number of distinct names that can be formed is the number of unique prefix frequencies.
+
+Here's the optimized code:
+
+```python
+def solve(names):
+    m = len(names[0])
+    prefix_count = {}
+
+    for name in names:
+        prefix = name[:m-1]
+        prefix_count[prefix] = prefix_count.get(prefix, 0) + 1
+
+    return len(prefix_count)
+
+def main():
+    firstLine = input().split()
+    firstLine = list(map(int, firstLine))
+    inputLines = []
+    for i in range(firstLine[0]):
+        line = input()
+        inputLines.append(line)
+    #solve(firstLine)
+    print(solve(inputLines) % 1000000007)
+
+if __name__ == "__main__":
+    main()
+```
+
+### Explanation:
+1. **Input Reading**: The input is read as the first line containing two integers `n` and `m`, followed by `n` lines of `m`-length strings.
+2. **Prefix Counting**: We iterate through each name, extract the prefix of length `m-1`, and count its occurrences in a dictionary.
+3. **Result Calculation**: The number of distinct names is the number of unique keys in the dictionary, as each unique key represents a distinct prefix.
+
+This approach ensures that we efficiently count the number of unique prefixes, which directly gives us the number of distinct names that can be formed. The time complexity is O(n * m), which is efficient given the constraints.
+
+
+C#
+The unoptimized code has a time complexity of O(n * m) because it iterates through each prefix of each name and counts the distinct characters. This can be optimized by using a HashSet to store the distinct characters, which will
+reduce the time complexity to O(n * m) because HashSet operations (add, contains) have average time complexity of O(1).
+
+Here is the optimized code:
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+class c108_p3
+{
+    static void Main()
+    {
+        new c108_p3().myMain();
+    }
+
+    void myMain()
+    {
+        string[] ss = Console.In.ReadLine().Split(new char[] { ' ' });
+        int n = int.Parse(ss[0]);
+        int m = int.Parse(ss[1]);
+        string[] names = new string[n];
+        for (int i = 0; i < n; i++)
+            names[i] = Console.In.ReadLine();
+        long number = 1;
+        for (int k = 0; k < m; k++)
+        {
+            HashSet<char> distinctChars = new HashSet<char>();
+            for (int i = 0; i < n; i++)
+                distinctChars.Add(names[i][k]);
+            number = (number * distinctChars.Count) % 1000000007;
+        }
+
+        Console.Out.WriteLine(number);
+    }
+}
+```
+
+This optimized code uses a HashSet to store distinct characters in each prefix. The HashSet.Count gives the number of distinct characters, and the number is updated accordingly. This avoids the need for nested loops and results in
+a more efficient solution.
